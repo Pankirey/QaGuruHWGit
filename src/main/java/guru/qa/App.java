@@ -6,9 +6,12 @@ package guru.qa;
  */
 public class App 
 {
-    private static String msg = ""Hello World!!!!!!!"";
+    private static String msg = "Hello World!!!!!!!";
     public static void main( String[] args )
     {
-        System.out.println( msg );
+        System.out.println( getMessage() );
+    }
+    private static String getMessage(){
+        return msg;
     }
 }
